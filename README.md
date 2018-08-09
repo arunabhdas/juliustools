@@ -1,5 +1,6 @@
 # JuliusTools
-This is a fork of OctavianTools
+
+Dev productivity tools for devs and engineers
 
 ### Tools
 
