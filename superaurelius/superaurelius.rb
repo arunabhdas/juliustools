@@ -14,10 +14,10 @@ doc = Nokogiri::HTML <<-EOHTML
 EOHTML
 
 hammer = doc.at_css "time"
-hammer.name = 'superjax'
+hammer.name = 'superaurelius'
 doc.css("iddqd").remove
 doc.css("idkfa").remove
 
-outfile = File.new("output2.html", "w")
+outfile = File.new("output.html", "w")
 outfile.puts doc.to_html
 outfile.close
